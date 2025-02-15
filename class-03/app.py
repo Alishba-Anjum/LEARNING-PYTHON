@@ -1,27 +1,38 @@
-#Boolean
+# f string or doc string
 
-# num = 10
-# num2 = 10
-# print(num >= num2)
+#  f string
 
-#Conditions
+user_name = input("Enter your name: ")
+print(f"Hello, {user_name} How are you?")
 
-percentage = 29
+# doc string
+# multiple line string
+# 3 double quotes or 3 single quotes
 
-if(percentage >= 90 and percentage <= 100 ):
-    print("your grade is A+")
+print("""
+    Hello, How are you?
+    I am fine, thank you.
+    What about you?
+    I am also fine, thank you.""")
 
-elif(percentage >= 80 and percentage <= 90):
-    print("your grade is A") 
+print(f"""
+    Hello, {user_name} How are you?
+    I am fine, thank you.
+    What about you?
+    I am also fine, thank you.""")
 
-elif(percentage >= 70 and percentage <= 80):
-    print("your grade is B")
+# assignment no 1
 
-elif(percentage >= 60 and percentage <= 70):
-    print("your grade is C")
+user = input("Enter your name: ")   
 
-elif(percentage >= 50 and percentage <= 60):
-    print("your grade is D")
+print(f""" 
+Hi, {user} 
 
-else:
-    print("Fail")
+You Got a free couppn code: alish2020.
+Use this code and get 50% off on your first order.
+
+Best Regards,
+Alishba.
+""")
+
+
