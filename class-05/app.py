@@ -108,3 +108,18 @@ if (not is_logged_in):
     print("Please login to continue")
 else:
     print("You are already logged in")        
+
+
+
+# assignment
+
+is_hungry = False
+burger_lover = True
+pizza_lover = False
+
+if (is_hungry and burger_lover or pizza_lover):
+    print("You can order food")
+elif (not is_hungry):
+    print("You are not hungry")
+else:
+    print("You can't order food")    
