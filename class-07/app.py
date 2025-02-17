@@ -68,3 +68,4 @@ def roll_dice(limit = 6):
 
 print(roll_dice(40))  
 print(roll_dice())
+print(roll_dice(20))
